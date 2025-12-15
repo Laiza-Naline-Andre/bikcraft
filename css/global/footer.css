@@ -21,7 +21,7 @@
 .footer-contato li:nth-child(even):after {
     content: "";
     display: block;
-    width: 100%;
+    max-width: 360px;
     height: 2px;
     background: var(--cor-11);
     margin-top: 16px;
@@ -36,7 +36,7 @@
     gap: 32px;
 }
 
-.footera:hover {
+.footer a:hover {
     color: var(--cor-0);
 }
 
@@ -50,7 +50,7 @@
         display: none;
     }
     .footer {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 

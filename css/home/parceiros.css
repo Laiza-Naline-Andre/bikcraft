@@ -1,4 +1,5 @@
 .parceiros {
+    padding-top: 60px;
     padding-bottom: 120px;
 }
 
@@ -25,7 +26,7 @@
 }
 
 .parceiros li:first-child,
-.parceiros li:first-child(5) {
+.parceiros li:nth-child(5) {
     border-left: none;
 }
 
